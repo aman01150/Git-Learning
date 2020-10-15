@@ -1,0 +1,9 @@
+install git and git bash
+
+Create your local folder
+go inside folder
+Right click and click on git bash here
+Check the status
+$ git status
+Check the version
+$ git --version
