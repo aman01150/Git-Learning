@@ -7,3 +7,15 @@ Check the status
 $ git status
 Check the version
 $ git --version
+New folder make as a git local folder
+$ git init
+adding files in local folder you can check using following command Where you will see files in red which is not added
+$ git status
+Adding files in staging on following command
+$ git add .
+Then moved to local srver on following command
+$ git commit -m "comments"
+To move the file from local server to github online server
+$ git push -u origin branchname
+ 
+
