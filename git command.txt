@@ -65,6 +65,28 @@ list all files in folder
 $ ls -la
 $ git clone url . (. is optional) 
 
+Ignoring Files in Git
+
+$ tough .gitignore
+$ git rm --cached filename
+$ git config --global core.excludesfile ~/.gitignore_global
+
+Git Branch
+To konw how many branches are there?
+$ git branch
+
+Create new branch
+$ git branch branch name
+
+Switch the branch
+$ git switch branchname
+
+To delete branch 
+Local 
+git branch -d branchname
+
+Remote
+git push origin --delete branchname
 
 
  
