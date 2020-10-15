@@ -16,7 +16,7 @@ $ git add .
 Then moved to local srver on following command
 $ git commit -m "comments"
 Add new git repository
-$ git remote add origin git@github.com:aman01150/Git-Learning.git
+$ git remote add origin git@github.com:aman01150/Git-Learning.git(Url of git repository)
 Before pushing into github generate ssh key online
 $ ssh-keygen -t rsa -b 4096 -C "emailid"
 $ eval $(ssh-agent -s)
@@ -26,6 +26,44 @@ To move the file from local server to github online server
 $ git push -u origin branchname
 To pull code from github
 $ git pull -u origin branchname
+Check the developer author
+$ git log
+Config the developer name and Email
+$ git config --global user.name "aman mishra"
+$ git config --global user.email "abc@gmail.com"
+
+$ git status (Always run first)
+
+To check modification
+
+$ git diff <file name>
+
+to check staged git modification
+
+$ git diff --staged git command.txt
+
+To revert code which added into staged
+---> first unstaged it
+$ git reset filename
+$ git restore --staged <filename>
+
+$ git checkout filename
+
+multiple files changes removed 
+$ git checkout .
+
+/// Staging Basics in Git
+$ git add -A (Stages All)
+
+$ git add . (Stages new and modified, without delete)
+
+$ git add -u (Stages modified and delete, without new)
+
+Cloning a git repository
+
+list all files in folder
+$ ls -la
+$ git clone url . (. is optional) 
 
 
 
