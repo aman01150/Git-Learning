@@ -15,7 +15,19 @@ Adding files in staging on following command
 $ git add .
 Then moved to local srver on following command
 $ git commit -m "comments"
+Add new git repository
+$ git remote add origin git@github.com:aman01150/Git-Learning.git
+Before pushing into github generate ssh key online
+$ ssh-keygen -t rsa -b 4096 -C "emailid"
+$ eval $(ssh-agent -s)
+$ ssh -add ~/.ssh/id-rsa
+$ clip <~/.ssh/id-rsa.pub
 To move the file from local server to github online server
 $ git push -u origin branchname
+To pull code from github
+$ git pull -u origin branchname
+
+
+
  
 
